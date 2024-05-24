@@ -63,7 +63,7 @@
     function Card(id,image,title,price,founder,category)
     {
         let SingelData=`
-        <a href="description.html?title=${encodeURIComponent(title)}&image=${encodeURIComponent(image)}&founder=${encodeURIComponent(founder)}&category=${encodeURIComponent(category)}&price=${encodeURIComponent(price)}">
+        <a href="HTML_File/description.html?title=${encodeURIComponent(title)}&image=${encodeURIComponent(image)}&founder=${encodeURIComponent(founder)}&category=${encodeURIComponent(category)}&price=${encodeURIComponent(price)}">
         <div class="card" data-id=${id}> 
         <div class="card-img">
         <img src=${image}>
